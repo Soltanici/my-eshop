@@ -1,0 +1,38 @@
+/* styles/Navbar.module.css */
+
+.navbar {
+    background-color: var(--antique-primary);
+    padding: 10px 20px;
+}
+
+.navList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navItem {
+    margin-right: 10px;
+}
+
+.navItem a {
+    text-decoration: none;
+    color: var(--antique-secondary);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.navItem a:hover {
+    color: var(--antique-background);
+}
+
+.navLabel {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.navbar,
+.navItem a { /* Apply white font color to navbar and links */
+    color: white;
+}

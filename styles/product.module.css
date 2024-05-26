@@ -1,0 +1,35 @@
+/* product.module.css */
+
+.product {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .productName {
+    margin-bottom: 10px;
+  }
+  
+  .productPrice {
+    font-weight: bold;
+  }
+
+  .productDescription {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+
+  .selected {
+    background-color: red; /* Change the background color to red */
+  }
+  .productsContainer {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping to next line */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+  }

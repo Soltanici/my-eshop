@@ -1,0 +1,17 @@
+/* styles/global.css */
+
+:root {
+    --antique-primary: #8b4513; /* Saddle Brown */
+    --antique-secondary: #6b4226; /* Antique Bronze */
+    --antique-background: #d2b48c; /* Tan */
+    /* Add more antique colors as needed */
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--antique-background);
+    color: var(--antique-secondary);
+  }
+  
+  /* Add more global styles as needed */
+  
